@@ -345,6 +345,7 @@ if (typeof browser === "undefined") {
     const staticWrappers = {
       runtime: {
         onMessage: wrapEvent(onMessageWrappers),
+        onMessageExternal: wrapEvent(onMessageWrappers),
       },
     };
 
